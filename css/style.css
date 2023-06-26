@@ -8,7 +8,7 @@
 .content{
     flex: 1 1 100%;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-items: flex-start;
 }
 
@@ -21,45 +21,45 @@
 .top {
     background-image: url("../img/1.png");
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center 50%;
     background-attachment: local;
-    background-size: 100% auto;
+    background-size: cover;
     width:100%;
-  height:675px; 
+    min-height: 650px;
   }
 .crysis{
     background-image: url("../img/2.png");
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: local;
-    background-size: 100% auto;
+    background-size: cover;
     width:100%;
-  height:675px; 
+  height:975px; 
 }
 .hope{
     background-image: url("../img/3.png");
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: local;
-    background-size: 100% auto;
+    background-size: cover;
     width:100%;
-  height:675px;  
+  height:975px;  
 }
 .testimonials{
     background-image: url("../img/4.jfif");
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: local;
-    background-size: 100% auto;
+    background-size: cover;
     width:100%;
-  height:675px;  
+  height:775px;  
 }
 .atc{
     background-image: url("../img/5.jfif");
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: local;
-    background-size: 100% auto;
+    background-size: cover;
     width:100%;
-  min-height:675px; 
+  min-height:775px; 
 }
