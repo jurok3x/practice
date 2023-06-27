@@ -60,8 +60,6 @@
 .home__button:hover{
   background-color: yellow;
 }
-
-
 .crysis{
     background-image: url("../img/2.png");
     background-repeat: no-repeat;
@@ -71,6 +69,44 @@
     width:100%;
   height:975px; 
 }
+.crysis__content{
+  width: 25%;
+  min-width: 300px;
+  position: relative;
+  top: 22%;
+  left:55%;
+}
+.crysis__label{
+  text-align: center;
+  color: lightgrey;
+  font-size: 1.5em;
+  font-family: 'Caprasimo', cursive;
+}
+.crysis__label span{
+  font-family: 'Dancing Script', cursive;
+}
+.crysis__text{
+  color: darkgrey;
+  font-family: 'Open Sans', sans-serif;
+}
+.crysis__action{
+  margin-top: 20px;
+}
+.crysis__button{
+  background-color: transparent;
+  border: 5px solid darkgray;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-family: 'Caprasimo', cursive;
+  font-size: 1em;
+  color: #fff;
+  margin-left: 25%;
+}
+.crysis__button:hover{
+  background-color: darkgray;
+}
+
 .hope{
     background-image: url("../img/3.png");
     background-repeat: no-repeat;
