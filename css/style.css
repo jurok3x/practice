@@ -7,10 +7,94 @@
 
 .content{
     flex: 1 1 100%;
-
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
 }
 
 .container{
 	max-width: 1180px;
 	margin: 0px auto;
+}
+
+
+.home {
+    background-image: url("../img/1.png");
+    background-repeat: no-repeat;
+    background-position: center 50%;
+    background-attachment: local;
+    background-size: cover;
+    width:100%;
+    min-height: 850px;
+  }
+.home__content{
+   width: 20%;
+   min-width: 233px;
+   position: absolute;
+   top: 40%;
+   left:25%;
+}
+.home__label{
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Caprasimo', cursive;
+}
+.home__label span{
+  color: yellow;
+  font-family: 'Dancing Script', cursive;
+  
+}
+.home__action{
+  margin-top: 10px;
+}
+.home__button{
+  background-color: transparent;
+  border: 5px solid yellow;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-family: 'Caprasimo', cursive;
+  font-size: 1em;
+  color: #fff;
+}
+.home__button:hover{
+  background-color: yellow;
+}
+
+
+.crysis{
+    background-image: url("../img/2.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: local;
+    background-size: cover;
+    width:100%;
+  height:975px; 
+}
+.hope{
+    background-image: url("../img/3.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: local;
+    background-size: cover;
+    width:100%;
+  height:975px;  
+}
+.testimonials{
+    background-image: url("../img/4.jfif");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: local;
+    background-size: cover;
+    width:100%;
+  height:775px;  
+}
+.atc{
+    background-image: url("../img/5.jfif");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: local;
+    background-size: cover;
+    width:100%;
+  min-height:775px; 
 }
