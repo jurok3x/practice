@@ -18,14 +18,14 @@
 }
 
 
-.top {
+.home {
     background-image: url("../img/1.png");
     background-repeat: no-repeat;
     background-position: center 50%;
     background-attachment: local;
     background-size: cover;
     width:100%;
-    min-height: 650px;
+    min-height: 850px;
   }
 .crysis{
     background-image: url("../img/2.png");
