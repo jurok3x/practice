@@ -27,6 +27,41 @@
     width:100%;
     min-height: 850px;
   }
+.home__content{
+   width: 20%;
+   min-width: 233px;
+   position: absolute;
+   top: 40%;
+   left:25%;
+}
+.home__label{
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Caprasimo', cursive;
+}
+.home__label span{
+  color: yellow;
+  font-family: 'Dancing Script', cursive;
+  
+}
+.home__action{
+  margin-top: 10px;
+}
+.home__button{
+  background-color: transparent;
+  border: 5px solid yellow;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-family: 'Caprasimo', cursive;
+  font-size: 1em;
+  color: #fff;
+}
+.home__button:hover{
+  background-color: yellow;
+}
+
+
 .crysis{
     background-image: url("../img/2.png");
     background-repeat: no-repeat;
