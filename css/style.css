@@ -1,136 +1,205 @@
-.wrapper{
-    min-height: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  font-size: 1em;
 }
 
-.content{
-    flex: 1 1 100%;
-    display: flex;
-    flex-direction: column;
-    justify-items: flex-start;
+h1 {
+  margin-top: 0px;
+  font-size: 1.5em;
+  font-family: 'Caprasimo', cursive;
 }
 
-.container{
-	max-width: 1180px;
-	margin: 0px auto;
+h1 span {
+  font-family: 'Dancing Script', cursive;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  
+  background-color: transparent;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 1 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0px auto;
 }
 
 
 .home {
-    background-image: url("../img/1.png");
-    background-repeat: no-repeat;
-    background-position: center 50%;
-    background-attachment: local;
-    background-size: cover;
-    width:100%;
-    min-height: 850px;
-  }
-.home__content{
-   width: 20%;
-   min-width: 233px;
-   position: absolute;
-   top: 40%;
-   left:25%;
+  background-image: url("../img/1.png");
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  background-attachment: local;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
 }
-.home__label{
-  color: white;
-  font-size: 1.5em;
-  font-family: 'Caprasimo', cursive;
+
+.home__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
-.home__label span{
+
+.home__content {
+  width: 20%;
+  min-width: 250px;
+}
+
+.home__label {
+  color: white; 
+}
+
+.home__label span {
   color: yellow;
-  font-family: 'Dancing Script', cursive;
-  
 }
-.home__action{
+
+.home__action {
   margin-top: 10px;
 }
-.home__button{
-  background-color: transparent;
+
+.home__button {
   border: 5px solid yellow;
-  width: 200px;
-  height: 50px;
   border-radius: 10px;
-  font-family: 'Caprasimo', cursive;
-  font-size: 1em;
-  color: #fff;
 }
-.home__button:hover{
+
+.home__button:hover {
   background-color: yellow;
 }
-.crysis{
-    background-image: url("../img/2.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: local;
-    background-size: cover;
-    width:100%;
-  height:975px; 
+
+.crysis {
+  background-image: url("../img/2.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: local;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
-.crysis__content{
+
+.crysis__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  margin-left: 10%;
+}
+
+.crysis__content {
   width: 25%;
   min-width: 300px;
-  position: relative;
-  top: 22%;
-  left:55%;
 }
-.crysis__label{
+
+.crysis__label {
   text-align: center;
   color: lightgrey;
-  font-size: 1.5em;
-  font-family: 'Caprasimo', cursive;
 }
-.crysis__label span{
-  font-family: 'Dancing Script', cursive;
-}
-.crysis__text{
+
+.crysis__text {
   color: darkgrey;
-  font-family: 'Open Sans', sans-serif;
 }
-.crysis__action{
+
+.crysis__action {
   margin-top: 20px;
 }
-.crysis__button{
-  background-color: transparent;
+
+.crysis__button {
   border: 5px solid darkgray;
-  width: 200px;
-  height: 50px;
   border-radius: 10px;
-  font-family: 'Caprasimo', cursive;
-  font-size: 1em;
-  color: #fff;
   margin-left: 25%;
 }
-.crysis__button:hover{
+
+.crysis__button:hover {
   background-color: darkgray;
 }
 
-.hope{
-    background-image: url("../img/3.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: local;
-    background-size: cover;
-    width:100%;
-  height:975px;  
+.hope {
+  background-image: url("../img/3.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: local;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
-.testimonials{
-    background-image: url("../img/4.jfif");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: local;
-    background-size: cover;
-    width:100%;
-  height:775px;  
+
+.hope__label {
+  text-align: center;
+  color: aliceblue;
 }
-.atc{
-    background-image: url("../img/5.jfif");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: local;
-    background-size: cover;
-    width:100%;
-  min-height:775px; 
+
+.w300mb20 {
+  width: 300px;
+  margin-bottom: 20px;
 }
+
+.hope__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.hope__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hope__footer {
+  text-align: center;
+  color: aliceblue;
+}
+
+.hope__footer button {
+  border: 5px solid greenyellow;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+.hope__footer button:hover {
+  background-color:greenyellow;
+}
+
+.testimonials {
+  background-image: url("../img/4.jfif");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: local;
+  background-size: cover;
+  width: 100%;
+  height: 775px;
+}
+
+.atc {
+  background-image: url("../img/5.jfif");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: local;
+  background-size: cover;
+  width: 100%;
+  min-height: 775px;
+}
+
