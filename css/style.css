@@ -149,8 +149,11 @@ button {
   color: aliceblue;
 }
 
-.w300mb20 {
-  width: 300px;
+.hope__card {
+  width: 33%;
+  min-width: 300px;
+  color: black;
+  background-color: #fff;
   margin-bottom: 20px;
 }
 
@@ -190,7 +193,53 @@ button {
   background-attachment: local;
   background-size: cover;
   width: 100%;
-  height: 775px;
+  height: 100vh;
+}
+
+.test__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.test__label{
+  color: aliceblue;
+}
+
+.test__content{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.test__card {
+  background: transparent;
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+}
+
+.test__card__img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.pdt16 {
+  padding-top: 16px;
+}
+
+.test__card .card-body h5 {
+  color: gold;
+}
+
+.test__card .card-body p {
+  color: azure;
 }
 
 .atc {
