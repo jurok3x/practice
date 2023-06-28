@@ -43,6 +43,12 @@ button {
   margin: 0px auto;
 }
 
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 
 .home {
   background-image: url("../img/1.png");
@@ -57,6 +63,7 @@ button {
 
 .home__container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -226,8 +233,8 @@ button {
 
 .test__card__img {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .pdt16 {
@@ -242,6 +249,15 @@ button {
   color: azure;
 }
 
+.test__button {
+  border: 5px solid darkgray;
+  border-radius: 10px;
+}
+
+.test__button:hover {
+  background-color: darkgray;
+}
+
 .atc {
   background-image: url("../img/5.jfif");
   background-repeat: no-repeat;
@@ -252,3 +268,46 @@ button {
   min-height: 775px;
 }
 
+.atc__label {
+  text-align: center;
+  color: darkcyan;
+}
+
+.atc__card {
+  width: 20%;
+  min-width: 250px;
+  color: black;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.atc__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.atc__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.atc__footer {
+  text-align: center;
+  color: aliceblue;
+  margin-bottom: 5%;
+}
+
+.atc__button {
+  border: 5px solid darkcyan;
+  border-radius: 10px;
+  color: #000;
+}
+
+.atc__button:hover {
+  background-color: darkcyan;
+}
