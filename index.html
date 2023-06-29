@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Dancing+Script&family=Lilita+One&family=Open+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -17,9 +20,11 @@
         <div class="content">
             <div class="home" id="home">
               <div class="header">
-                <nav class="navbar navbar-expand navbar-dark bg-dark">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
                   <a class="navbar-brand"">Dogs</a>
-                  
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
                   <div class=" collapse navbar-collapse" id="navbarNav">
                     <ul class="header__nav navbar-nav">
                       <li class="nav-item active">
@@ -46,7 +51,7 @@
                 <div class="home__content">
                   <div class="home__label"><h1><span>When Life Hurts,</span><br> Pet a Dog</h1></div>
                   <div class="home__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad unde perspiciatis ipsa cupiditate a ut rem repellat, nam eius quae rerum minima beatae debitis voluptate labore dolorem inventore facilis! Possimus.</div>
-                  <div class="home__action"><button class="home__button">Call to action</button></div>
+                  <div class="home__action"><button class="home__button rounded__button">Call to action</button></div>
                 </div>
                 
               </div>
@@ -57,9 +62,10 @@
                 <div class="crysis__content">
                   <div class="crysis__label"><h1><span>The</span>Crysis</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet praesentium debitis, similique possimus necessitatibus omnis adipisci officiis id beatae, accusantium laborum.</p>
+                    <div class="underline"></div>
                   </div>
                   <div class="crysis__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil incidunt recusandae impedit nisi ea blanditiis perspiciatis voluptates eius dicta sit ut laborum eum explicabo vel possimus quam, quos quia excepturi?</div>
-                  <div class="crysis__action"><button class="crysis__button">View more</button></div>
+                  <div class="crysis__action"><button class="crysis__button rounded__button">View more</button></div>
                 </div>
               </div>
             </div>
@@ -68,6 +74,7 @@
                 <div class="hope__label">
                   <h1><span>The</span>Hope</h1>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem obcaecati amet alias impedit, quas laborum praesentium odit, dolore quod voluptatum expedita est, beatae aperiam molestiae illo ea doloribus harum! Autem.</p>
+                  <div class="underline"></div>
                 </div>
                 <div class="hope__content">
                   <div class="hope__card">
@@ -87,7 +94,7 @@
                 </div>
                 <div class="hope__footer">
                   <h1>How can you take a dog?</h1>
-                  <button>Contact us</button>
+                  <button class="hope__button rounded__button">Contact us</button>
                 </div>
               </div>
             </div>
@@ -95,6 +102,7 @@
               <div class="test__container">
                 <div class="test__label">
                   <h1>Testimonials</h1>
+                  <div class="underline"></div>
                 </div>
                 <div class="test__content">
                   <div class=" test__card">
@@ -117,7 +125,7 @@
                   </div>
                 </div>
                 <div>
-                  <button class="test__button">View more</button>
+                  <button class="test__button rounded__button">View more</button>
                 </div>
               </div>
             </div>
@@ -125,6 +133,7 @@
               <div class="atc__container">
                 <div class="atc__label">
                   <h1><span>Latest from</span>ATC</h1>
+                  <div class="underline"></div>
                 </div>
                 <div class="atc__content">
                   <div class="atc__card">
@@ -150,7 +159,7 @@
                   </div>
                 </div>
                 <div class="atc__footer">
-                  <button class="atc__button">Contact us</button>
+                  <button class="atc__button rounded__button">Contact us</button>
                 </div>
               </div>
             </div>
