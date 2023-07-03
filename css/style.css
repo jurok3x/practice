@@ -321,6 +321,18 @@ button {
   width: 100%;
 }
 
+@media screen and (min-width: 800px) {
+  .atc {
+    background-color: lightblue;
+    background-image: url("../img/5.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: local;
+    width: 100%;
+  }
+}
+
 .atc__label {
   margin-top: 50px;
   display: flex;
@@ -330,14 +342,27 @@ button {
 }
 
 .atc__card {
-  width: 20%;
-  min-width: 250px;
   color: black;
   margin-bottom: 20px;
+  width: 250px;
+}
+
+.atc__card__img_container {
+  position: relative;
+}
+
+.atc__card__img_container p{
+  position: absolute;
+  top: 226px;
+  background-color: gold;
+  color: white;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .atc__card__img {
-  width: 100%;
+  width: 250px;
+  height: 250px;
 }
 
 .atc__content {
