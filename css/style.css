@@ -79,12 +79,10 @@ button {
 }
 
 .container {
-  max-width: 1180px;
-  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-
-
-
 
 .home {
   background-image: url("../img/1.jpg");
@@ -98,11 +96,8 @@ button {
 }
 
 .home__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
-  min-height: 100vh;
+  justify-content: center;
 }
 
 .home__content {
@@ -146,10 +141,8 @@ button {
 }
 
 .crysis__container {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  min-height: 100vh;
+  justify-content: center;
+  align-items: flex-end;
   margin-right: 10%;
 }
 
@@ -192,6 +185,11 @@ button {
   min-height: 100vh;
 }
 
+.hope__container {
+  justify-content: space-between;
+  align-items: center;
+}
+
 .hope__label {
   width: 30%;
   min-width: 300px;
@@ -213,14 +211,6 @@ button {
   color: black;
   background-color: #fff;
   margin-bottom: 20px;
-}
-
-.hope__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 100vh;
 }
 
 .hope__content {
@@ -255,11 +245,8 @@ button {
 }
 
 .test__container{
-  display: flex;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
 }
 
 .test__label{
@@ -333,6 +320,12 @@ button {
   }
 }
 
+.atc__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .atc__label {
   margin-top: 50px;
   display: flex;
@@ -371,12 +364,6 @@ button {
 
 .card-body {
   background-color: wheat;
-}
-
-.atc__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .atc__footer {
