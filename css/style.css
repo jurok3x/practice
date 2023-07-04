@@ -84,15 +84,17 @@ button {
   min-height: 100vh;
 }
 
-.home {
-  background-image: url("../img/1.jpg");
+.section {
   background-repeat: no-repeat;
-  background-position: center 50%;
+  background-position: center top;
   background-attachment: local;
   background-size: cover;
-  position: relative;
   width: 100%;
   min-height: 100vh;
+}
+
+#home {
+  background-image: url("../img/1.jpg");
 }
 
 .home__container {
@@ -130,14 +132,8 @@ button {
   background-color: yellow;
 }
 
-.crysis {
+#crysis {
   background-image: url("../img/2.png");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: local;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
 }
 
 .crysis__container {
@@ -175,14 +171,8 @@ button {
   background-color: darkgray;
 }
 
-.hope {
+#hope {
   background-image: url("../img/3.png");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: local;
-  background-size: cover;
-  width: 100%;
-  min-height: 100vh;
 }
 
 .hope__container {
@@ -234,14 +224,8 @@ button {
   background-color:greenyellow;
 }
 
-.testimonials {
+#testimonials {
   background-image: url("../img/4.jfif");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: local;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
 }
 
 .test__container{
@@ -298,25 +282,14 @@ button {
   background-color: darkgray;
 }
 
-.atc {
+#atc {
   background-color: lightblue;
   background-image: url("../img/5.jfif");
-  background-repeat: no-repeat;
-  
-  background-position: center top;
-  background-attachment: local;
-  width: 100%;
 }
 
-@media screen and (min-width: 800px) {
-  .atc {
-    background-color: lightblue;
-    background-image: url("../img/5.jfif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    background-attachment: local;
-    width: 100%;
+@media screen and (max-width: 991px) {
+  #atc {
+    background-size: auto;
   }
 }
 
