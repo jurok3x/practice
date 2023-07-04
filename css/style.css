@@ -166,6 +166,7 @@ button {
 
 #hope {
   background-image: url("../img/3.png");
+  background-color: gold;
 }
 
 .hope__container {
@@ -182,7 +183,7 @@ button {
 }
 
 .hope__label {
-  width: 30%;
+  width: 40%;
   min-width: 300px;
   margin-top: 50px;
   display: flex;
@@ -322,10 +323,6 @@ button {
   padding: 15px;
 }
 
-.card-body {
-  background-color: wheat;
-}
-
 .atc__footer {
   text-align: center;
   color: aliceblue;
@@ -339,6 +336,43 @@ button {
 
 .atc__button:hover {
   background-color: darkcyan;
+}
+
+#support {
+  background-image: url("../img/8.webp");
+  min-height: calc(100vh / 2);
+}
+
+.support__container {
+  min-height: calc(100vh / 2);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.support__label {
+  text-align: center;
+  color: lightblue;
+}
+
+.support__label span{
+  color: gold;
+}
+
+.support__action button {
+  border: 1px solid gold;
+  border-radius: 10px;
+}
+
+.support__action button:hover {
+  background-color:  gold;
+}
+
+.support__action input {
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .footer {
