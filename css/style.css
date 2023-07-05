@@ -346,6 +346,8 @@ button {
 .date a {
   font-size: 1.5em;
   justify-self: flex-end;
+  text-decoration: none;
+  color: #000;
 }
 
 .atc__footer {
