@@ -136,6 +136,8 @@ button {
 }
 
 .crysis__content {
+  display: flex;
+  flex-direction: column;
   width: 40%;
   min-width: 300px;
 }
@@ -151,13 +153,11 @@ button {
   color: darkgrey;
 }
 
-.crysis__action {
-  margin-top: 20px;
-}
-
 .crysis__button {
+  align-self: center;
+  margin-top: 20px;
   border-color: darkgray;
-  margin-left: 25%;
+ 
 }
 
 .crysis__button:hover {
@@ -325,6 +325,29 @@ button {
   padding: 12%;
 }
 
+.separator {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin: 10px auto;
+}
+
+#calendar {
+  border: 0px;
+  font-weight: 700;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date a {
+  font-size: 1.5em;
+  justify-self: flex-end;
+}
+
 .atc__footer {
   text-align: center;
   color: aliceblue;
@@ -395,6 +418,11 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer__row a{
+  margin: 15px;;
 }
 
 @media screen and (max-width: 991px) {
