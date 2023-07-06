@@ -167,10 +167,16 @@ button {
 #hope {
   background-color: gold;
   height: 100%;
-
 }
 
 .hope__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hope__content {
   background-image: url("../img/3.png");
   min-height: calc(100vh * 2 / 3);
   max-height: calc(100vh * 2 / 3);
@@ -179,23 +185,16 @@ button {
   background-attachment: local;
   min-width: 100vw;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-}
-
-.hope__content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
 }
 
 .hope__label {
   width: 40%;
   min-width: 300px;
   margin-top: 50px;
-  margin-bottom: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -204,15 +203,24 @@ button {
 
 .hope__label p {
   text-align: center;
-  color: chocolate;
+  color: black;
+}
+
+.hope__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw;
+  position: relative;
+  top: 80px;
+  align-items: flex-end;
+  flex-wrap: wrap;
 }
 
 .hope__card {
-  width: 33%;
-  min-width: 300px;
+  width: 350px;
   color: black;
   background-color: #fff;
-  margin-bottom: 20px;
 }
 
 .hope__footer {
@@ -223,6 +231,7 @@ button {
 .hope__button {
   border-color: white;
   margin-bottom: 5%;
+  margin-left: 10px;
 }
 .hope__button:hover {
   background-color:white;
@@ -458,6 +467,9 @@ button {
     justify-content: center;
     align-items: center;
   }
+  .footer__row {
+    margin: 15px auto;
+  }
   .media__icon {
     width: 30px;
     height: 30px;
@@ -465,9 +477,30 @@ button {
   }
 }
 
-@media screen and (max-width: 623px) {
+@media screen and (max-width: 700px) {
+  .hope__cards {
+    top: 60px;
+  }
+  .hope__card {
+    margin-bottom: 10px;;
+  }
+}
+
+@media screen and (max-width: 450px) {
   .hope__label {
-    margin-bottom: 15%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hope__label {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 438px) {
+  .footer__row a{
+    display: block;
   }
 }
 
