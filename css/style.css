@@ -43,7 +43,7 @@ button {
 .icon__dog{
   width: 100px;
   height: 100px;
-  margin-left: 10px;
+  margin: 15px;
 }
 
 .nav__button {
@@ -453,7 +453,6 @@ button {
   .icon__dog{
     width: 50px;
     height: 50px;
-    margin-left: 0;
   }
   .home__container {
     align-items: center;
@@ -479,22 +478,13 @@ button {
 
 @media screen and (max-width: 700px) {
   .hope__cards {
-    top: 60px;
+    top: 0px;
+  }
+  .hope__content {
+    max-height: 100vh;
   }
   .hope__card {
-    margin-bottom: 10px;;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .hope__label {
-    margin-top: 0;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .hope__label {
-    margin-top: 0;
+    margin-bottom: 10px;
   }
 }
 
